@@ -1,3 +1,4 @@
+import Counter from "./components/Counter/Counter";
 import CounterConfig from "./components/Counter/CounterConfig";
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
     <>
       <h1>Practice 30.12.2024</h1>
       <hr />
-      <CounterConfig />
+      <Counter initialValue={5} step={3} />
+      {/* <CounterConfig /> */}
     </>
   );
 }
